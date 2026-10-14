@@ -25,9 +25,11 @@
         <span>Jeremy Koloski</span>
       </a>
       <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-indigo-600 transition">About</a>
         <a href="#story" class="hover:text-indigo-600 transition">My Story</a>
         <a href="#philosophy" class="hover:text-indigo-600 transition">Philosophy</a>
         <a href="#cases" class="hover:text-indigo-600 transition">Case Studies</a>
+        <a href="#thought-leadership" class="hover:text-indigo-600 transition">Thought Leadership</a>
         <a href="#experience" class="hover:text-indigo-600 transition">Experience</a>
       </div>
       <a href="Jeremy_Koloski_Resume.pdf" download="Jeremy_Koloski_Resume.pdf" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg font-medium text-sm transition shadow-sm hover:shadow flex items-center gap-2">
@@ -49,7 +51,7 @@
           Bridging behavioral economics, user research, and product strategy to drive human-centered growth.
         </h1>
         <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-          Former software developer turned Behavioral Scientist with 5+ years diagnosing non-conscious user friction, designing digital health interventions, and translating complex human insights into actionable commercial roadmaps.
+          Former software developer turned Behavioral Economist with 5+ years diagnosing non-conscious user friction, designing digital health interventions, and translating complex human insights into actionable commercial roadmaps.
         </p>
         <div class="flex flex-wrap gap-4 pt-2">
           <a href="#cases" class="bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-medium transition shadow-sm flex items-center gap-2">
@@ -88,30 +90,69 @@
 
   <!-- MY STORY SECTION -->
   <section id="story" class="py-20 bg-white border-y border-slate-200/80">
-    <div class="max-w-4xl mx-auto px-6 space-y-8">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-slate-700 text-xs font-semibold tracking-wide uppercase">
+    <div class="max-w-6xl mx-auto px-6 space-y-10">
+      
+      <!-- Section Header Tag -->
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold tracking-wide uppercase">
         <i data-lucide="compass" class="w-3.5 h-3.5 text-indigo-600"></i>
         <span>My Story</span>
       </div>
-      <h2 class="text-3xl font-bold text-slate-900 tracking-tight">
-        Understanding the complexity of the human experience.
-      </h2>
-      <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-5 text-base md:text-lg">
-        <p class="text-slate-800 font-medium leading-normal">
-          At the heart of everything I do is a deep desire to understand the full complexity of human experience, and to tell stories that shed light on why we do what we do.
-        </p>
-        <p>
-          My journey began in <strong>software engineering</strong>, building integrated technical systems. While I enjoyed the architectural rigor, I found myself continually drawn to the human element behind the screen—how people navigate choices, form habits, and make sense of their lives.
-        </p>
-        <p>
-          That curiosity led me to an <strong>MSc in Behavioral Economics</strong> and 5+ years leading behavioral strategy for global brands. Whether diagnosing why patients drop off life-saving treatment regimens or why innovative product launches stall, I specialize in unpicking non-conscious friction points—habits, social pressure, and cognitive fatigue—and building actionable strategic roadmaps.
-        </p>
-        <p>
-          For me, storytelling takes many forms. Beyond commercial strategy, I hosted a corporate behavioral science podcast—translating dense academic insights into engaging audio—and in my free time, I write original song lyrics and compose piano music. Whether through a song, a podcast episode, or a product strategy deck, my passion lies in uncovering authentic human insights and translating them into meaningful impact.
-        </p>
-        <p>
-          Today, I help innovative tech and digital health companies build intuitive products, reduce user friction, and meet people's conscious and non-conscious needs.
-        </p>
+
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Profile Photo & Visual Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-sm lg:max-w-none">
+            <!-- Decorative Background Accent -->
+            <div class="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-indigo-500 to-indigo-100 opacity-30 blur-lg"></div>
+            
+            <!-- Photo Card -->
+            <div class="relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-200/80 shadow-md">
+              <!-- Profile Image: Ensure profile.png is saved in your portfolio folder -->
+              <img 
+                src="profile.png" 
+                alt="Jeremy Koloski" 
+                class="w-full h-80 lg:h-96 object-cover object-center transition duration-300 hover:scale-105"
+              />
+              <div class="p-5 bg-slate-900 text-white space-y-1">
+                <h3 class="font-bold text-lg tracking-tight">Jeremy Koloski</h3>
+                <p class="text-xs text-indigo-300 font-medium">Behavioral Scientist & Product Strategist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Story Narrative -->
+        <div class="lg:col-span-7 space-y-6">
+          <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Understanding the full complexity of human experience.
+          </h2>
+
+          <p class="text-lg text-slate-800 font-medium leading-relaxed">
+            At the heart of everything I do is a deep desire to uncover why people make the choices they do—and to build products and stories that meet their real needs.
+          </p>
+
+          <div class="prose prose-slate max-w-none text-slate-600 leading-relaxed space-y-4 text-base">
+            <p>
+              My journey began in <strong>software engineering</strong>, designing integrated technical systems. While I loved structural problem-solving, I found myself drawn to the human element behind the screen—how users navigate choices, form habits, and overcome friction.
+            </p>
+            <p>
+              Driven by this curiosity, I earned an <strong>MSc in Behavioral Economics</strong> and spent over 5 years leading behavioral strategy for global brands. Whether diagnosing why patients drop off life-saving treatment regimens or why innovative product launches stall, I specialize in unpicking non-conscious friction points—habits, cognitive fatigue, and social pressure—and translating them into actionable product roadmaps.
+            </p>
+            <p>
+              For me, storytelling takes many forms. Beyond diagnostic research, I hosted a corporate behavioral science podcast and write original song lyrics and piano music. Whether through an audio narrative, a song, or an executive product deck, my passion lies in uncovering authentic human insights and driving meaningful impact.
+            </p>
+          </div>
+
+          <!-- Highlight Badges / Core Pillars -->
+          <div class="pt-2 flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-semibold">Software Roots</span>
+            <span class="px-3 py-1 rounded-lg bg-indigo-50 text-indigo-700 text-xs font-semibold">Behavioral Economics</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-semibold">Product Strategy</span>
+            <span class="px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-semibold">Podcast Host & Communicator</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -138,7 +179,7 @@
         </div>
         <h3 class="text-xl font-bold text-slate-900">Engagement & Drop-Off</h3>
         <p class="text-slate-600 text-sm leading-relaxed">
-          Where are non-conscious barriers such as established habits and cognitive friction points causing churn in digital health platforms and SaaS products?
+          Where are non-conscious barriers, established habits, and cognitive friction points causing churn in digital health platforms and SaaS products?
         </p>
       </div>
       <div class="bg-white p-8 rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition space-y-3">
@@ -156,7 +197,7 @@
         </div>
         <h3 class="text-xl font-bold text-slate-900">Product & Intervention Strategy</h3>
         <p class="text-slate-600 text-sm leading-relaxed">
-          How do we translate complex behavioral diagnostics into actionable product roadmaps that move measurable metrics?
+          How do we translate complex behavioral diagnostics into actionable, automated product roadmaps that move measurable metrics?
         </p>
       </div>
     </div>
@@ -205,12 +246,12 @@
             <span class="text-xs text-slate-400 font-medium">Anonymized Client Study</span>
           </div>
           <h3 class="text-2xl font-bold text-slate-900">
-            Leveraging Behavioral Science to Outposition Larger Competitors
+            Leveraging Behavioral Economics to Outposition Market Incumbents
           </h3>
           <div class="grid md:grid-cols-3 gap-6 text-sm">
             <div class="space-y-2">
               <h4 class="font-bold text-slate-900 uppercase text-xs tracking-wider text-emerald-600">The Challenge</h4>
-              <p class="text-slate-600 leading-relaxed">A regional specialized manufacturer needed a positioning strategy to compete against massive, resource-rich global competitors.</p>
+              <p class="text-slate-600 leading-relaxed">A regional specialized manufacturer needed a positioning strategy to compete against massive, resource-rich global incumbents.</p>
             </div>
             <div class="space-y-2">
               <h4 class="font-bold text-slate-900 uppercase text-xs tracking-wider text-emerald-600">Behavioral Diagnostic</h4>
@@ -218,7 +259,7 @@
             </div>
             <div class="space-y-2">
               <h4 class="font-bold text-slate-900 uppercase text-xs tracking-wider text-emerald-600">Strategic Impact</h4>
-              <p class="text-slate-600 leading-relaxed">Leveraged the Specialization Effect and Country-of-Origin trust cues to reframe smaller size as an advantage, equipping sales teams with an personalized trust narrative.</p>
+              <p class="text-slate-600 leading-relaxed">Leveraged the Specialization Effect and Country-of-Origin trust cues to reframe size as nimbleness, equipping sales teams with an unbeatable trust narrative.</p>
             </div>
           </div>
         </article>
@@ -235,11 +276,11 @@
           <div class="grid md:grid-cols-3 gap-6 text-sm">
             <div class="space-y-2">
               <h4 class="font-bold text-slate-900 uppercase text-xs tracking-wider text-amber-600">The Challenge</h4>
-              <p class="text-slate-600 leading-relaxed">Existing campaigns relied on loss aversion and system-cost guilt, which failed to motivate clinical decision-makers to switch behaviors and often backfired.</p>
+              <p class="text-slate-600 leading-relaxed">Existing campaigns relied on loss aversion and system-cost guilt, which failed to motivate clinical decision-makers to switch behaviors.</p>
             </div>
             <div class="space-y-2">
               <h4 class="font-bold text-slate-900 uppercase text-xs tracking-wider text-amber-600">Behavioral Diagnostic</h4>
-              <p class="text-slate-600 leading-relaxed">Diagnosed high psychological distance: macro system costs felt impersonal and irrelevant, whereas clinicians were intrinsically focused on immediate patient outcomes.</p>
+              <p class="text-slate-600 leading-relaxed">Diagnosed high psychological distance: macro system costs felt impersonal, whereas clinicians were intrinsically focused on immediate patient outcomes.</p>
             </div>
             <div class="space-y-2">
               <h4 class="font-bold text-slate-900 uppercase text-xs tracking-wider text-amber-600">Strategic Impact</h4>
@@ -247,6 +288,91 @@
             </div>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- THOUGHT LEADERSHIP & MEDIA SECTION -->
+  <section id="thought-leadership" class="py-20 bg-white border-t border-slate-200/80">
+    <div class="max-w-6xl mx-auto px-6 space-y-12">
+      <div>
+        <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Thought Leadership & Media</h2>
+        <p class="text-slate-600 mt-2">Podcasts, publications, and articles exploring behavioral science, decision-making, and human experience.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- PODCAST CARD -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 space-y-4 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-semibold">
+              <i data-lucide="mic" class="w-3.5 h-3.5"></i>
+              <span>Podcast Host</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">How the Fear of Death Motivates Our Behavior</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              An episode of the HRW behavioral science podcast exploring Terror Management Theory and non-conscious existential motivators in healthcare decisions.
+            </p>
+          </div>
+          <a href="https://open.spotify.com/episode/6SmHH84fZ0sI1ZfyshsgUn?si=DYAz3fPZTEKLVmeiIaLocg" target="_blank" rel="noopener noreferrer" class="text-indigo-600 font-semibold text-sm hover:text-indigo-700 flex items-center gap-1.5 pt-2">
+            <span>Listen on Spotify</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <!-- DECISION LAB PIECE -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 space-y-4 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 text-indigo-800 text-xs font-semibold">
+              <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+              <span>The Decision Lab</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Mistruth Can Set You Free: The Power of False Belief</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              An exploration of how false beliefs and cognitive illusions can sometimes serve functional psychological roles in shaping behavior.
+            </p>
+          </div>
+          <a href="https://thedecisionlab.com/insights/society/mistruth-can-set-you-free-the-power-of-false-belief" target="_blank" rel="noopener noreferrer" class="text-indigo-600 font-semibold text-sm hover:text-indigo-700 flex items-center gap-1.5 pt-2">
+            <span>Read Publication</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <!-- LINKEDIN POST ON AI -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 space-y-4 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 text-sky-800 text-xs font-semibold">
+              <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+              <span>Industry Insights</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">Common Biases When Working with AI</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              A deep-dive overview of the psychological traps and cognitive biases teams face when integrating artificial intelligence into research workflows.
+            </p>
+          </div>
+          <a href="https://lnkd.in/p/dqKCPEkd" target="_blank" rel="noopener noreferrer" class="text-indigo-600 font-semibold text-sm hover:text-indigo-700 flex items-center gap-1.5 pt-2">
+            <span>View Post on LinkedIn</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <!-- HRW BLOG POST -->
+        <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200/80 space-y-4 flex flex-col justify-between">
+          <div class="space-y-3">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-semibold">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+              <span>HRW Research Blog</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900">What Behavioral Science Reveals About Healthcare Decision-Making</h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Unpacking the underlying psychological mechanics behind health decision-making, vacation planning, and behavioral friction.
+            </p>
+          </div>
+          <a href="https://www.hrwhealthcare.com/what-behavioural-science-reveals-about-healthcare-decision-making/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 font-semibold text-sm hover:text-indigo-700 flex items-center gap-1.5 pt-2">
+            <span>Read Article</span>
+            <i data-lucide="external-link" class="w-4 h-4"></i>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
